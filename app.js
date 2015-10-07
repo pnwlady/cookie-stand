@@ -18,16 +18,15 @@ var CookieStand = function(place, minCustHour, maxCustHour, avgCookCust, id) {
     for(var i = 0; i < 8; i++) {
       this.cookiesByHourList.push(this.totalCookHour());
       this.dailyCookies = this.dailyCookies + this.totalCookHour();
-      console.log("24-hour time: " + (i + 10) + this.dailyCookies);
-      console.log("running total of cookies: " + this.dailyCookies)
-      console.log("Here is the dailyCookies array being built: " + this.cookiesByHourList);
+      // console.log("24-hour time: " + (i + 10) + this.dailyCookies);
+      // console.log("running total of cookies: " + this.dailyCookies)
+      // console.log("Here is the dailyCookies array being built: " + this.cookiesByHourList);
     };
-  return this.dailyCookies;
   };
   this.runDailyTotals();
   console.log(this.cookiesByHourList.length);
 
-  this.makeUL = function() {
+  this.makeUL = function(id) {
     for(var i = 0; i < this.cookiesByHourList.length; i++) {
       var ul = document.getElementById(this.id);
       var listItem = document.createElement('li');
@@ -35,7 +34,7 @@ var CookieStand = function(place, minCustHour, maxCustHour, avgCookCust, id) {
       ul.appendChild(listItem);
     };
   };
-  this.makeUL();
+  this.makeUL(this.id);
 };
 
 var pikePlace = new CookieStand('Pike Place Market', 17, 88, 5.2, 'Pike');

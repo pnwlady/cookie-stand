@@ -1,8 +1,10 @@
 * {
   background-color: salmon;
+  font-family: 'Merriweather;
 }
 
 .img {
   opacity: 0.6;
+  align: left;
 }
 
