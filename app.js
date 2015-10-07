@@ -42,6 +42,7 @@ var pikePlace = new CookieStand('Pike Place Market', 17, 88, 5.2, 'Pike');
 var seaTac = new CookieStand('Seatac Airport', 6, 44, 1.2, 'Seatac');
 var southcntr = new CookieStand('Southcenter Mall', 11, 38, 1.9, 'Southcntr');
 var bellSqr = new CookieStand('Bellevue Square', 20, 48, 3.3, 'Bellevue');
+var alki = new CookieStand('Alki', 3, 24, 2.6, 'Alki');
 
 
 
