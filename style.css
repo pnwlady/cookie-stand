@@ -1,10 +1,95 @@
-* {
+body {
   background-color: salmon;
-  font-family: 'Merriweather;
+}
+header {
+  font-family: 'Merriweather';
+  background-color: #297A29;
+  padding: 20px;
 }
 
+#tag {
+  padding: 20px;
+  font-family: 'Merriweather';
+  font-size: 34px;
+  color: salmon;
+  text-align: center;
+}
+
+#standard {
+  font-family: 'Merriweather';
+  color: #297A29;
+  padding: 8px;
+  text-align: center;
+}
+
+.box {
+    width: 900px;
+    padding: 50px;
+    border: 15px solid navy;
+    margin: 25px;
+    text-align: center;
+}
+
+#fir {
+  font-family: 'Merriweather';
+  color: #003399;
+  text-align: center;
+  list-style: none;
+}
+
+#spec {
+  font-family: 'Merriweather';
+  color: #003399;
+  text-align: center;
+}
+
+#data {
+  font-family: 'Merriweather', serif;
+  color: #B85C00;
+  text-align: center;
+}
+
+h1 {
+  font-size: 'Merriweather';
+  color: #297A29;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 'Merriweather';
+  color: #003399;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: 'Merriweather';
+  color: #003399;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  color: #297A29;
+  font-size: 14px;
+}
 .img {
   opacity: 0.6;
-  align: left;
+  padding-left: 300px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
+.img2 {
+  opacity: 0.7;
+  padding-left: 400px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.img3 {
+  opacity: 0.7;
+  padding-top: 10px;
+  padding-left: 370px;
+  padding-bottom: 10px;
+  text-align: center;
+}
