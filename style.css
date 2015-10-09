@@ -1,5 +1,6 @@
 body {
   background-color: salmon;
+  border 930px;
 }
 header {
   font-family: 'Merriweather';
@@ -23,7 +24,7 @@ header {
 }
 
 .box {
-    width: 900px;
+    width: 80%;
     padding: 50px;
     border: 15px solid navy;
     margin: 25px;
@@ -73,7 +74,7 @@ p {
   font-size: 14px;
 }
 .img {
-  opacity: 0.6;
+  opacity: 0.9;
   padding-left: 300px;
   padding-bottom: 60px;
   text-align: center;
