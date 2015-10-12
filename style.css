@@ -19,7 +19,7 @@ header {
 #standard {
   font-family: 'Merriweather';
   color: #297A29;
-  padding: 8px;
+  padding: 2px;
   text-align: center;
 }
 
@@ -66,6 +66,7 @@ h3 {
   font-family: 'Merriweather';
   color: #003399;
   font-size: 20px;
+  text-align: center;
 }
 
 p {
@@ -75,14 +76,14 @@ p {
 }
 .img {
   opacity: 0.9;
-  padding-left: 300px;
+  padding-left: 380px;
   padding-bottom: 60px;
   text-align: center;
 }
 
 .img2 {
   opacity: 0.7;
-  padding-left: 400px;
+  padding-left: 500px;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -90,7 +91,7 @@ p {
 .img3 {
   opacity: 0.7;
   padding-top: 10px;
-  padding-left: 370px;
+  padding-left: 500px;
   padding-bottom: 10px;
   text-align: center;
 }
