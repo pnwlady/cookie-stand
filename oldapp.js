@@ -52,24 +52,43 @@ for (var i = 0; i < placeName.length; i++) {
   placeName[i]
 };
 
-(function() {
-  var myform = document.getElementById('form');
+var storeSubmit = function(storeSubmit) {
+  event.preventDefault();
+  var locName = document.getElementById('locName');
+  var minCust = document.getElementById('minCust');
+  var maxCust = document.getElementById('maxCust');
+  var avgCookies = document.getElementById('avgCookies');
+  var formData = [];
+};
 
-  myform.addEventListener('submit', function(e) {
-    e.preventDefault();
-    console.log("This is line 60");
-  var elements = this.elements;
-  var locName = document.getElementById('locName').value;
-  var minCust = document.getElementById('minCust').value;
-  var maxCust = document.getElementById('maxCust').value;
-  var avgCookies = document.getElementById('avgCookies').value;
+var newStore = new CookieStand(locName.value, minCust.value, maxCust.value, avgCookies.value);
 
-  var newStore = new CookieStand(locName, minCust, maxCust, avgCookies);
-  });
-}());
+var el = document.getElementById("addButton");
+el.addEventListener('click', storeSubmit);
+// //end form/button area
 
+// var formButton = document.getElementById('salesform');
 
+// var formData =[];
 
+// var handleFormSubmit = function(event) {
+//   event.preventDefault();
 
+//    if (!event.target.locName.value) {
+//     return alert('Boxes cannot be empty!');
+//    }
+
+//    //creating a new instance... hint hint hint
+//    var newForm = new form(event.target.locationname.value, event.target.blabbering.value);
+
+//    console.log(event.target.locName.value); // SUPER IMPORTANT
+//    console.log(event.target.blabbering.value); //SUPER IMPORTANT
+//    event.target.locName.value = null;
+//    event.target.blabbering.value = null;
+//    tweetData.push(newTweet);
+//    renderAllTweets();
+//   };
+
+// formButton.addEventListener('click', handleFormSubmit);
 
 
